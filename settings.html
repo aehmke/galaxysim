@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+                <script type="text/javascript" src="js/settings.js" ></script>
+                <link rel="stylesheet" type="text/css" href="css/settings.css">
+        <title>Stars</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="#000000" onload="initApp();initSettings();">
+        <div><center><label for="slider">Update Frequency</label><input id="slider" type ="range" min ="500" max="10000" step ="500" oninput="outputUpdate();" style="max-width:80%;"/></center>
+        </div><div><center><label for="slider">Stellar Rotation</label><input type="checkbox" id="checkbox" onchange="stellarRotation();"/></center>
+        </div>
+    </body>
+</html>
